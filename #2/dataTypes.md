@@ -1,4 +1,4 @@
-#Integers in Solidity:
+# Integers in Solidity:
 
 [refer to this](https://ethereum.stackexchange.com/questions/29946/what-is-uint256)
 uint256 (uint is an alias) is a unsigned integer which has:
@@ -10,7 +10,7 @@ int256 (int is an alias) is a signed integer which has:
 minimum value of -2^255 = -57896044618658097711785492504343953926634992332820282019728792003956564819968
 maximum value of 2^255-1 = 57896044618658097711785492504343953926634992332820282019728792003956564819967
 
-##uint vs int
+## uint vs int
 
 The primitive data types prefixed with "u" are unsigned versions with the same bit sizes. Effectively, this means they cannot store negative numbers, but on the other hand they can store positive numbers twice as large as their signed counterparts. The signed counterparts do not have "u" prefixed.
 
